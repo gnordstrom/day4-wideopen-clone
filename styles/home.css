@@ -1,0 +1,71 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+    width: 100%;
+    background: url('../img/wot-masthead-dark.jpg') center no-repeat;
+    background-size: cover;
+
+}
+
+.main-header {
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    top:0;
+    padding: 25px;
+}
+
+.main-header img {
+    width: 180px;
+}
+
+.HAM {
+    float: right;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+
+.HAM img {
+    margin: 0;
+    width:100%;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mid-section h1 {
+    text-align: center;
+    width: 95%;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.mid-section button {
+    width: 65%;
+    border: 2px solid #bdd436;
+    padding: 20px;
+    border-radius: 40px;
+    color: #bdd436;
+    background: none;
+}
+.mid-section button:active {
+    color: #fff;
+    background: #bdd436;
+}
+
+.mid-section button:focus {
+  outline: none;
+}
